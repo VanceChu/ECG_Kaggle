@@ -1,3 +1,4 @@
+[English](README.md) | [简体中文](README_CN.md)
 # ECG_Kaggle
 
 ## Environment Setup
@@ -36,3 +37,21 @@ python scripts/clean_env.py
 # 3. Rename result to environment.yml
 mv environment_clean.yml environment.yml
 ```
+
+## Project Structure
+
+The directory structure of the project is organized as follows:
+
+```text
+ECG_KAGGLE/
+├── docs/                           # Reference papers and literature related to ECG digitization
+├── notebooks/                      # Kaggle reproduction notebooks and exported Python scripts
+│   ├── analysis/                   # Markdown analysis and experiment notes for the notebooks
+│   ├── physio-v2-2-public.ipynb    # Main notebook: reproduction of physio-v2-2-public
+│   ├── physio-V2-2-public.py       # Pure Python version exported from the notebook above
+│   ├── PhysioNet - Digitization of ECG Images.ipynb  # Main notebook: PhysioNet ECG digitization
+│   └── PhysioNet - Digitization of ECG Images.py     # Pure Python version exported from the notebook
+├── scripts/                        # Utility scripts (e.g., environment cleaning)
+├── src/                            # Core source code modules and helper functions
+├── environment.yml                 # Reproducible Conda environment configuration
+└── README.md                       # Project description and usage instructions
