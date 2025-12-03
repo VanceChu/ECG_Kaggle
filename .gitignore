@@ -209,3 +209,6 @@ __marimo__/
 # Personal
 Mark.ipynb
 .DS_Store
+Mark.ipynb
+outputs/
+notebooks/outputs/
