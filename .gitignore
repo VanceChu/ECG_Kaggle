@@ -207,6 +207,7 @@ marimo/_lsp/
 __marimo__/
 
 # Personal
+guide/
 Mark.ipynb
 .DS_Store
 Mark.ipynb
