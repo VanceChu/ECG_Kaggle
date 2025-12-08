@@ -1,0 +1,11 @@
+name = "physionet-24-cleaned"
+version = "0.1.0"
+description = "The cleaned version of our Physionet 2024 winning project."
+authors = ["Felix Krones info@felixkrones.de"]
+license = "BSD-2-Clause"
+readme = "README.md"
+python = "^3.11"
+
+[tool.ruff]  # This is the tool section for Ruff
+line-length = 90
+lint.ignore = ["E402", "F405", "F403", "E741"]
